@@ -543,7 +543,6 @@
 // }
 // console.log(trimcheck("    hello    uzbekistan        "));
 
-
 // 2-usul
 // const trimcheck = function(arg) {
 //     let res;
@@ -553,7 +552,6 @@
 // }
 // console.log(trimcheck("    hello    uzbekistan        "));
 
-
 // 3-usul
 // const trimcheck =  (arg) => {
 //     let res;
@@ -562,3 +560,110 @@
 //     return res;
 // }
 // console.log(trimcheck("    hello    uzbekistan        "));
+
+// Qo'shimcha masalalar
+// 1-masala
+// const summ = function(a1,a2) {
+//     let sum = 0;
+//     arg1.forEach(function(value) {
+//         if(typeof value == "number") {
+//             sum = sum + value
+//         }
+//     })
+
+//     arg2.forEach(function(value) {
+//         if(typeof value == 'number') {
+//             sum = sum + value;
+//         }
+//     })
+
+//     return sum;
+// }
+
+// console.log(summ([8,3,'salom',5],[2,4,'hello',15]));
+
+// 2-masala
+//  const minn = (arg) => {
+//       let min = arg[0];
+//       arg.forEach(function (value) {
+//         if (value < min) {
+//           min = value;
+//         }
+//       });
+//       let N = min ** 3;
+
+//       return N;
+//     }
+//     console.log(minn([3,5,7,12,29,2]));
+
+// 3-masala
+// function juft() {
+//     let i = 0;
+//     while (i <= 20) {
+//       if (i % 2 == 0 && i != 0) {
+//         console.log(i * 5);
+//       }
+
+//       i++;
+//     }
+
+//     return i;
+//   }
+//   juft();
+
+// 4-masala
+// const ortAr=  function() {
+//   let n = +prompt("n soni kiritilsin");
+//   let i = 1;
+//   let counter = 0;
+//   let summ = 0;
+//   while (i <= n) {
+//     counter = counter + 1;
+//     summ = summ + i;
+
+//     i++;
+//   }
+
+//   let result = summ / counter;
+
+//   return result;
+// }
+
+// console.log(ortAr());
+
+// 5-masala
+// function summ(argument) {
+//   let max;
+//   max = argument[0];
+//   for (i = 0; i < argument.length; i++) {
+
+//     if (argument[i] > max) {
+//       max = argument[i];
+//     }
+//   }
+
+//   return max;
+// }
+
+// console.log(summ([2, 5, 3, 10, 0]));
+
+// 6-masala
+// const New = function(arg) {
+//     let a = [];
+//     for(i = 0; i < arg.length; i++) {
+//         if(arg[i] > 9 && arg[i] < 100) {
+//             a.push(arg[i]);
+//         }
+//     }
+
+//     return a;
+// }
+
+// console.log(New([29,4,9,-45,-22,12]));
+
+// 7-masala
+// const arr = [1, 2, 3, 4, 3, 2, 5];
+// const removecheck = (data) => {
+//   return data.filter((value, index) => data.indexOf(value) === index);
+// }
+// console.log(removecheck(arr));
